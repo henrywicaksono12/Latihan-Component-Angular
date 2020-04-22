@@ -1,0 +1,13 @@
+<p>
+  Nama Jurusan yang Ingin Di-Edit: 
+  <input [(ngModel)] = "nama" type="text">
+
+<br><br>
+
+  Penjelasan Baru:<br>
+  <input [(ngModel)] = "desk" type="text">
+
+  <br><br>
+
+  <button (click) = "appComponent.editData(nama, desk)">Edit Data</button>
+</p>
